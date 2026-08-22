@@ -63,10 +63,10 @@ A governança do Open Finance brasileiro funciona como um modelo híbrido inovad
 *   O mercado, estruturado sob a forma da **Associação Open Finance**, atua de forma proativa para propor e gerenciar os padrões técnicos de APIs, canais de suporte técnico, ferramentas de versionamento de código e o monitoramento operacional de conformidade entre os participantes. Essa estrutura de governança deve assegurar, obrigatoriamente: representatividade e pluralidade de segmentos, acesso não discriminatório a todos os autorizados, mitigação de conflitos de interesse e sustentabilidade financeira do ecossistema.
 
 ### 3.4. Interfaces com a LGPD e o Papel das Autoridades
-O compartilhamento de dados no Open Finance cruza diretamente as competências da **Autoridade Nacional de Proteção de Dados (ANPD)** e do **Banco Central (BCB)**:
+O compartilhamento de dados no Open Finance cruza diretamente as competências da **Agência Nacional de Proteção de Dados (ANPD)** e do **Banco Central (BCB)**:
 *   **LGPD (Lei nº 13.709/2018):** O tratamento de dados no ecossistema deve atender plenamente aos direitos fundamentais de privacidade do titular, incluindo os direitos de acesso, correção, eliminação, portabilidade de dados (Art. 18) e revogação do consentimento.
 *   **Tutela do Crédito como Base Legal:** A LGPD estabelece uma base legal específica em seu **Art. 7º, inciso X, para tratamento de dados pessoais não sensíveis para a proteção do crédito**. No entanto, isso não desobriga as instituições financeiras de cumprir os princípios de transparência, finalidade legítima, minimização de dados e não discriminação.
-*   **Coexistência e Interoperabilidade:** Embora a ANPD seja a autoridade nacional central de proteção de dados, o Banco Central atua de forma complementar e altamente rigorosa na regulação prudencial e na exigência de elevados padrões de segurança cibernética e sigilo bancário das conexões das APIs.
+*   **Coexistência e Interoperabilidade:** Embora a ANPD seja a agência reguladora federal responsável pela proteção de dados pessoais, o Banco Central atua de forma complementar na regulação prudencial e na exigência de padrões de segurança cibernética e sigilo bancário aplicáveis ao ecossistema financeiro.
 
 ---
 
