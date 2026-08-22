@@ -1,0 +1,45 @@
+name: Correção institucional final
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/finaliza-nomenclatura-anpd.yml
+
+permissions:
+  contents: write
+
+jobs:
+  corrigir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Atualizar nomenclatura da ANPD
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('docs/miniguia-creditexplain-br.md')
+          s = p.read_text(encoding='utf-8')
+          old1 = 'Autoridade Nacional de Proteção de Dados (ANPD)'
+          new1 = 'Agência Nacional de Proteção de Dados (ANPD)'
+          old2 = 'Embora a ANPD seja a autoridade nacional central de proteção de dados, o Banco Central atua de forma complementar e altamente rigorosa na regulação prudencial e na exigência de elevados padrões de segurança cibernética e sigilo bancário das conexões das APIs.'
+          new2 = 'Embora a ANPD seja a agência reguladora federal responsável pela proteção de dados pessoais, o Banco Central atua de forma complementar na regulação prudencial e na exigência de padrões de segurança cibernética e sigilo bancário aplicáveis ao ecossistema financeiro.'
+          if s.count(old1) != 1:
+              raise SystemExit(f'Esperava 1 ocorrência de old1; encontrei {s.count(old1)}')
+          if s.count(old2) != 1:
+              raise SystemExit(f'Esperava 1 ocorrência de old2; encontrei {s.count(old2)}')
+          s = s.replace(old1, new1).replace(old2, new2)
+          p.write_text(s, encoding='utf-8')
+          PY
+      - name: Commitar correção e remover workflow transitório
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          rm .github/workflows/finaliza-nomenclatura-anpd.yml
+          git add docs/miniguia-creditexplain-br.md .github/workflows/finaliza-nomenclatura-anpd.yml
+          git commit -m 'docs: atualiza nomenclatura institucional da ANPD'
+          git push origin main
