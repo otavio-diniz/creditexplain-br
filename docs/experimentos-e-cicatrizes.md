@@ -59,12 +59,17 @@ O miniguia final foi gerado a partir do corpus de 77 fontes e posteriormente cor
 - **Precisão Semântica:** continuou exigindo auditoria humana.
 - **Resultado:** prompt engineering gerou ganho real, porém o ganho mais importante foi mostrar onde o modelo ainda precisa de controle.
 
+## Evidência pública de respostas e referências
+As respostas integrais e suas citações nativas foram preservadas como notas brutas no NotebookLM para manter a rastreabilidade da interface. Para o portfólio público, este documento registra os **resultados auditados**, as correções e as cicatrizes, evitando publicar material bruto redundante.
+
+As referências utilizadas para verificar os experimentos incluem normas e fontes brasileiras primárias, relatórios institucionais, o artigo acadêmico de Simonae, Marcon e Casanova e benchmarks internacionais devidamente classificados. A curadoria completa e os links estão em [`corpus-77-fontes.md`](corpus-77-fontes.md).
+
 ## Resultado do conjunto experimental
 - **Conjunto:** SUFICIENTE_PARA_O_DESAFIO.
 - **Justificativa:** foram testadas variação A/B da mesma pergunta, síntese comparativa, aplicação de explicabilidade e geração de miniguia; o projeto acumulou troubleshooting real e demonstrável.
-- **Decisão:** NÃO realizar novos experimentos apenas para aumentar volume. Próxima fase: publicação estruturada no GitHub e refresh temporal imediatamente antes da submissão.
+- **Decisão:** NÃO realizar novos experimentos apenas para aumentar volume. A publicação estruturada no GitHub e o refresh temporal de 22/08/2026 foram concluídos; resta somente a submissão autoral na DIO.
 
 ## Nota de integridade
 Os exemplos e cenários simulados do projeto são MATERIAL DIDÁTICO FICTÍCIO/SINTÉTICO quando não derivam de um caso real documentado. O projeto não executa decisão real de crédito, parecer jurídico, diagnóstico clínico ou avaliação formal em nome de Otávio.
 
-- **Status:** PRONTO_PARA_PUBLICAÇÃO.
+- **Status:** PUBLICADO_E_AUDITADO_PARA_SUBMISSÃO.
