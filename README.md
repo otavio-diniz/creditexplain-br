@@ -5,7 +5,7 @@
 > Projeto do desafio **“Treinando uma IA de Aprendizagem: Explore o Poder do NotebookLM”**, no Bootcamp Bradesco — GenAI, Dados & Cyber.
 >
 > **Data de corte documental:** 22/08/2026
-> **Status:** versão preparada para publicação no GitHub.
+> **Status:** repositório publicado; auditoria pré-submissão concluída em 22/08/2026.
 > **Natureza:** material acadêmico e pedagógico. Não é parecer jurídico, diagnóstico clínico, política real de concessão de crédito nem sistema automatizado em produção.
 
 ![Capa do CreditExplain BR](assets/capa-notebooklm-creditexplain-br.png)
@@ -197,21 +197,34 @@ Respostas brutas do NotebookLM e artefatos internos de governança permanecem fo
 - O NotebookLM foi tratado como ferramenta externa ao projeto; os rótulos internos de experimentos não pressupõem memória ou estado interno da ferramenta.
 - Outputs de IA foram submetidos a revisão humana e não são promovidos automaticamente a conhecimento validado.
 
-## 12. Controle temporal antes da submissão
+## 12. Refresh normativo pré-submissão — 22/08/2026
 
-A documentação foi consolidada com data de corte em **22/08/2026**. Antes da publicação final e da submissão na DIO, é obrigatório revalidar pontos normativos sensíveis, especialmente:
+A revalidação dos pontos normativos sensíveis foi executada em **22/08/2026**, antes do fechamento acadêmico do projeto:
 
-- **Resolução CMN nº 5.320/2026:** na data de corte estava publicada, com entrada em vigor prevista para **28/08/2026**; sua redação deve ser atualizada após essa data somente se a vigência for confirmada e não houver alteração ou suspensão.
-- **Resolução Conjunta nº 1/2020:** confirmar a versão consolidada vigente do Open Finance.
-- **Atos SPA/MF sobre apostas:** confirmar a cadeia normativa vigente na data da publicação.
+- **Resolução CMN nº 5.320/2026:** confirmada como publicada, com entrada em vigor em **28/08/2026**. Portanto, no corte deste projeto, obrigações específicas dessa resolução permanecem descritas como **vigência futura**. Se a submissão ocorrer em ou após 28/08/2026, este ponto deve ser rechecado.
+- **Resolução Conjunta nº 1/2020 — Open Finance:** confirmada como norma-base vigente do ecossistema; o projeto referencia a versão consolidada disponibilizada pelo Banco Central.
+- **Atos SPA/MF sobre apostas:** a página oficial de legislação foi revalidada, incluindo a cadeia normativa usada no projeto para Bolsa Família/BPC, autoexclusão, Novo Desenrola Brasil, Fies tradicional e Fies Empreendedor.
+- **ANPD:** a nomenclatura institucional atual foi ajustada para **Agência Nacional de Proteção de Dados**, conforme a transformação institucional ocorrida em 2026.
 
-## 13. Arquivos do projeto
+**Resultado do refresh:** `PASS` para a data de corte de 22/08/2026.
+
+## 13. Checklist de aderência ao desafio DIO
+
+- ✅ **Contexto e objetivos:** apresentados nas seções 1 a 3 deste README.
+- ✅ **Curadoria de fontes:** cinco fontes abertas destacadas e corpus ampliado de 77 fontes documentado.
+- ✅ **Engenharia de prompts:** perguntas estratégicas e variações 1A/1B registradas.
+- ✅ **Respostas, referências e cicatrizes:** resultados auditados e troubleshooting consolidados em [`docs/experimentos-e-cicatrizes.md`](docs/experimentos-e-cicatrizes.md); respostas brutas e citações nativas permanecem preservadas nas notas do NotebookLM.
+- ✅ **Miniguia final:** resumos estruturados, glossário e prompts reutilizáveis em [`docs/miniguia-creditexplain-br.md`](docs/miniguia-creditexplain-br.md).
+- ✅ **Repositório próprio no GitHub:** publicado em `otavio-diniz/creditexplain-br`.
+- ⬜ **Submissão na plataforma DIO:** ação final a ser realizada pelo autor, com a URL principal deste repositório.
+
+## 14. Arquivos do projeto
 
 - [`docs/miniguia-creditexplain-br.md`](docs/miniguia-creditexplain-br.md) — miniguia final, glossário e prompts reutilizáveis.
 - [`docs/corpus-77-fontes.md`](docs/corpus-77-fontes.md) — cinco fontes âncora e índice do corpus auditado.
 - [`docs/experimentos-e-cicatrizes.md`](docs/experimentos-e-cicatrizes.md) — evolução dos prompts, resultados, auditoria e troubleshooting.
 
-## 14. Conclusão
+## 15. Conclusão
 
 O principal resultado do CreditExplain BR não é apenas um conjunto de respostas produzidas por IA. O projeto demonstra um processo de **curadoria → prompting → verificação → auditoria → correção editorial → consolidação pedagógica**.
 
@@ -221,4 +234,4 @@ A experiência mostrou que um bom prompt reduz erros, mas não elimina a necessi
 
 **Desafio:** Treinando uma IA de Aprendizagem: Explore o Poder do NotebookLM
 **Projeto:** CreditExplain BR — Crédito Responsável, IA, Open Finance e Explicabilidade
-**Status documental:** README consolidado; publicação do repositório e submissão na DIO permanecem ações do autor.
+**Status documental:** repositório publicado, auditado e academicamente pronto para submissão; a submissão na DIO permanece ação autoral.
