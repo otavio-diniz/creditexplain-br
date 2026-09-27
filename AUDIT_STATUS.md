@@ -4,64 +4,111 @@
 **Programa:** DIO Bootcamp Bradesco — GenAI, Dados & Cyber  
 **Módulo:** 01 — IA Generativa: Fundamentos, Prompting e Aplicações  
 **Desafio:** Treinando uma IA de Aprendizagem: Explore o Poder do NotebookLM  
-**Data desta auditoria:** 26/09/2026  
-**Baseline auditada:** `main@06bc9d5d8a6a496f8ec085aa02a762b496707e4c`
+**Auditoria atual:** 27/09/2026  
+**Baseline histórica preservada:** `main@06bc9d5d8a6a496f8ec085aa02a762b496707e4c`  
+**Baseline pré-v2:** `main@58cd58702feb97570f0f5047511d2918895e4321`
 
 ## Resultado
 
-`EVALUATOR_READINESS=PASS_COM_CORTE_TEMPORAL_EXPLICITO`
+`EVALUATOR_READINESS=PASS_EDICAO_REVISADA_E_SUBMISSAO_DECLARADA`
 
-O repositório contém os elementos necessários para um avaliador reconstruir o propósito, a curadoria, a experimentação com prompts e a entrega pedagógica do desafio. A expansão para 77 fontes não substitui a exigência de apresentação enxuta: o README destaca cinco fontes âncora abertas e separa o índice completo em documento próprio.
+O repositório permite reconstruir propósito, curadoria, experimentação, cicatrizes, entrega pedagógica, detalhe técnico-regulatório, limites, proveniência e evolução editorial do projeto. A segunda edição corrige a principal fragilidade pedagógica identificada após o fechamento original: o material continha conteúdo técnico relevante, mas estava excessivamente comprimido para funcionar como e-book autônomo de aprendizagem.
 
 ## Matriz de aderência ao desafio
 
 | Eixo | Evidência pública | Estado |
 |---|---|---|
-| Tema e objetivo definidos | README, seções 1–3 | PASS |
+| Tema e objetivo definidos | `README.md` | PASS |
 | Curadoria de 3–5 fontes abertas para apresentação | cinco fontes âncora no README | PASS |
 | Corpus e rastreabilidade | `docs/corpus-77-fontes.md` | PASS — extensão autoral |
-| Uso do NotebookLM com base em fontes | metodologia e experimentos documentados | PASS |
-| Perguntas/prompts estratégicos | experimentos 1A/1B no README e `docs/experimentos-e-cicatrizes.md` | PASS |
+| Uso do NotebookLM com base em fontes | metodologia + experimentos | PASS |
+| Perguntas/prompts estratégicos | 1A/1B + perguntas 2/3 | PASS |
 | Registro de erros e refinamentos | `docs/experimentos-e-cicatrizes.md` | PASS |
-| Miniguia final | `docs/miniguia-creditexplain-br.md` | PASS |
-| Glossário e prompts reutilizáveis | miniguia final | PASS |
-| Repositório GitHub navegável | README + `docs/` + `assets/` | PASS |
+| Entrega pedagógica | e-book v2 em `docs/miniguia-creditexplain-br.md` | PASS |
+| Profundidade explicativa | narrativa, exemplos, estudos de caso e playbook | PASS |
+| Preservação da densidade técnica | `docs/apendice-tecnico-regulatorio-creditexplain-br.md` | PASS |
+| Matriz regulatória e temporal | apêndice + corpus atualizado | PASS COM CONTROLE TEMPORAL |
+| Glossário e prompts reutilizáveis | integrados ao e-book v2 | PASS |
+| Atualidade de pontos mutáveis | refresh 27/09/2026 no corpus/e-book/apêndice | PASS COM CONTROLE TEMPORAL |
+| Repositório navegável | README + audit + changelog + docs + assets | PASS |
 | Proveniência e direitos | `NOTICE.md` + `LICENSE` | PASS |
+| Submissão à DIO | declaração humana do autor em 27/09/2026 | REGISTRADA — DATA EXATA NÃO AUTENTICADA |
 
-## Corte temporal e atualidade
+## Evolução editorial
 
-O conteúdo principal e o miniguia preservam deliberadamente o **corte documental de 22/08/2026**. Esta auditoria não reescreve retroativamente o artefato histórico.
+### Estado histórico — 22/08/2026
 
-Há, porém, um ponto temporal que um avaliador atual deve ler corretamente:
+O projeto foi fechado com corpus de 77 fontes, experimentos auditados e miniguia gerado pelo NotebookLM com revisão editorial humana. Esse estado permanece recuperável no histórico do Git.
 
-- o README original registrou a Resolução CMN nº 5.320/2026 como norma publicada com vigência futura em 22/08/2026;
-- a fonte oficial do Banco Central estabelece entrada em vigor em **28/08/2026**;
-- portanto, em **26/09/2026**, a resolução já está em vigor. O texto histórico continua correto para seu corte de 22/08, mas não deve ser lido como fotografia normativa atual.
+### Estado atual — 27/09/2026
 
-Fonte oficial para verificação atual: https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=5320&tipo=Resolu%C3%A7%C3%A3o+CMN
+A segunda edição foi reconstruída como e-book narrativo. Foram adicionados contexto, conexões entre conceitos, exemplos, estudos de caso sintéticos, explicações de SHAP/LIME, model risk, drift, Open Finance, contestabilidade, governança e um playbook prático.
 
-A nomenclatura **Agência Nacional de Proteção de Dados (ANPD)** permanece compatível com a página institucional oficial consultada na auditoria atual: https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional
+Para evitar que o ganho de legibilidade apagasse a densidade do trabalho, foi criado um **apêndice técnico-regulatório** separado. Ele concentra matrizes, detalhes de atos regulatórios, controles de evidência, distinções de jurisdição, limites de generalização e registro explícito de afirmações rebaixadas/corrigidas.
 
-## Decisão de preservação
+A revisão **não substitui o corpus histórico nem inventa que o NotebookLM produziu a nova redação**. O e-book v2 é uma revisão editorial posterior, explicitamente documentada.
 
-O README e o miniguia não foram reescritos neste ciclo para transformar um projeto fechado em um parecer jurídico permanentemente atualizado. A data de corte é parte da proveniência acadêmica. Este arquivo funciona como camada de auditoria atual e explicita a diferença entre:
+## Controle temporal
 
-1. o estado histórico do artefato em 22/08/2026; e
-2. a verificação de prontidão documental realizada em 26/09/2026.
+O refresh atual preserva a diferença entre estado histórico e estado vigente:
+
+- **Resolução CMN nº 5.320/2026:** era norma publicada com vigência futura no corte de 22/08; está vigente desde 28/08/2026.
+- **IN BCB nº 759/2026:** publicou o Manual de Escopo do Open Finance v8.0, mas sua entrada em vigor é 03/11/2026; portanto, não é tratada como vigente em 27/09/2026.
+- **IN BCB nº 760/2026:** Manual de Experiência do Cliente v9.0 atualizado na publicação de 09/07/2026.
+- **Resolução Conjunta nº 20/2026:** altera a disciplina de educação financeira, com efeitos temporais nas datas previstas pelo próprio normativo.
+- **Federal Reserve SR 26-2:** substituiu SR 11-7 e SR 21-8 no benchmark norte-americano de model risk management; permanece benchmark estrangeiro não vinculante no Brasil.
+
+As fontes de refresh não aumentam retroativamente a contagem original de 77 fontes do NotebookLM.
+
+## Integridade editorial
+
+A auditoria v2 também verificou que **completude não significa repetir toda formulação histórica sem crítica**. Quando a primeira edição continha uma extrapolação já identificada nos experimentos, a nova edição preserva a cicatriz, mas não promove a extrapolação como conhecimento válido.
+
+Exemplos registrados no apêndice/experimentos:
+
+- justificativa CEP/CONEP não sustentada pela fonte acadêmica;
+- atribuição não sustentada de “blacklist”;
+- técnica XAI apresentada com linguagem excessivamente próxima de obrigação regulatória;
+- benchmark estrangeiro que exigia qualificação explícita de jurisdição;
+- causalidade sugerida onde a evidência era apenas preditiva.
+
+Resultado: `INFORMACAO_VALIDA_PRESERVADA=SIM`; `EXTRAPOLACAO_PROMOVIDA=NAO`.
+
+## Estado da submissão DIO
+
+`SUBMISSAO_DIO=DECLARADA_CONCLUIDA_PELO_AUTOR_EM_27_09_2026`
+
+Interpretação estrita do marcador:
+
+- em 27/09/2026, Otávio declarou que o projeto **já havia sido submetido** à DIO;
+- a conversa não forneceu a data exata da submissão institucional;
+- nenhum comprovante da plataforma foi autenticado nesta auditoria;
+- portanto, o repositório registra a declaração humana válida sem fabricar timestamp institucional.
+
+`DATA_EXATA_DA_SUBMISSAO=NAO_AUTENTICADA`  
+`NOTA=NAO_INFERIDA`  
+`APROVACAO_INSTITUCIONAL=NAO_INFERIDA`  
+`CERTIFICADO=NAO_INFERIDO`
 
 ## Limitações e controles negativos
 
-- As respostas brutas e citações nativas do NotebookLM não estão no repositório público; essa exclusão é intencional e já está documentada no README.
+- As respostas brutas e citações nativas do NotebookLM permanecem fora do repositório público; essa exclusão é intencional e documentada.
 - O projeto não implementa sistema real de concessão de crédito.
 - O material não constitui parecer jurídico nem diagnóstico clínico.
-- O repositório não comprova, por si só, submissão, nota ou certificação na DIO.
-- Esta auditoria não promove a quantidade de 77 fontes como requisito oficial; trata-a como expansão autoral sobre uma apresentação de cinco fontes âncora.
+- A quantidade de 77 fontes não é promovida a requisito oficial do desafio; é expansão autoral.
+- O refresh de 27/09/2026 não torna o e-book permanentemente atualizado; fatos normativos devem ser fresh-read antes de uso profissional futuro.
+- A submissão declarada não comprova nota, aprovação, certificado ou análise humana da DIO.
 
-## Controle de alterações desta auditoria
+## Controle de alterações — ciclo v2
 
-`CONTEUDO_SUBSTANTIVO_DO_MINIGUIA_ALTERADO=NAO`  
-`EXPERIMENTOS_ALTERADOS=NAO`  
-`CORPUS_ALTERADO=NAO`  
+`EBOOK_SUBSTANTIVAMENTE_REESCRITO=SIM`  
+`APENDICE_TECNICO_REGULATORIO_CRIADO=SIM`  
+`DENSIDADE_TECNICA_PRESERVADA=SIM`  
+`PESQUISA_ORIGINAL_PRESERVADA=SIM`  
+`EXPERIMENTOS_NOTEBOOKLM_REEXECUTADOS=NAO`  
+`CORPUS_HISTORICO_77_FONTES_PRESERVADO=SIM`  
+`REFRESH_TEMPORAL_ADICIONADO=SIM`  
 `LICENCIAMENTO_EXPLICITO=SIM`  
 `PROVENIENCIA_EXPLICITA=SIM`  
-`SUBMISSAO_DIO_INFERIDA=NAO`
+`SUBMISSAO_DIO_INFERIDA=NAO`  
+`SUBMISSAO_DIO_DECLARADA_PELO_AUTOR=SIM`
