@@ -181,3 +181,11 @@ A segunda edição desloca o projeto de um miniguia concentrado para um e-book q
 **Desafio:** Treinando uma IA de Aprendizagem: Explore o Poder do NotebookLM  
 **Projeto:** CreditExplain BR — Crédito Responsável, IA, Open Finance e Explicabilidade  
 **Estado documental:** e-book v2 revisado e ampliado; apêndice técnico publicado no pacote; repositório auditado; submissão à DIO declarada concluída pelo autor; nota/certificação não inferidas.
+
+## 12. Leitura acessível, orientação e reconhecimento
+
+Para quem chega ao tema sem formação técnica, a leitura recomendada começa pelo [e-book completo](docs/miniguia-creditexplain-br.md) e pode ser acompanhada pelo [mapa de siglas e abreviações](docs/siglas-e-abreviacoes.md). O [índice de leitura](docs/README.md) organiza o percurso entre e-book, apêndice, corpus e experimentos.
+
+Este projeto foi desenvolvido no **DIO Bootcamp Bradesco — GenAI, Dados & Cyber**. A orientação do desafio **“Treinando uma IA de Aprendizagem: Explore o Poder do NotebookLM”** é creditada a **Felipe Silva Aguiar (`@felipeAguiarCode`)**, com referência ao ecossistema educacional da **`@digitalinnovationone`**.
+
+Agradeço pelo conteúdo e pela proposta do desafio. Feedback técnico ou pedagógico sobre esta implementação autoral é bem-vindo. As menções registram origem acadêmica e reconhecimento; **não implicam endosso, avaliação, vínculo profissional ou aprovação** por parte do instrutor, da DIO ou do Bradesco.
