@@ -2,34 +2,47 @@
 
 > O NotebookLM foi estabilizado com **77 fontes ativas/selecionadas** após pesquisa, curadoria e auditoria. As cinco fontes âncora abaixo são apresentadas no README por legibilidade; o índice completo preserva a diversidade e a hierarquia do corpus.
 
+## Controle temporal
+
+- **Corpus histórico do experimento:** 77 fontes.
+- **Corte original:** 22/08/2026.
+- **Refresh editorial/normativo da 2ª edição:** 27/09/2026.
+- **Regra de contagem:** fontes consultadas apenas para o refresh da 2ª edição **não aumentam retroativamente** a contagem histórica de 77 fontes usadas no NotebookLM.
+
 ## Decisão de curadoria
-O corpus operacional permanece com 77 fontes auditadas. Para o README serão destacadas 5 FONTES ÂNCORA representativas, sem reduzir ou ocultar o corpus ampliado.
-A seleção das cinco âncoras busca cobrir cinco funções distintas: proteção de dados; Open Finance; evidência institucional de crédito/vulnerabilidade; explicabilidade técnica; e fronteira clínica ligada a apostas.
+
+O corpus operacional original permanece com 77 fontes auditadas. Para o README são destacadas **cinco fontes âncora** representativas, sem reduzir ou ocultar o corpus ampliado.
+
+A seleção das cinco âncoras cobre cinco funções distintas: proteção de dados; Open Finance; evidência institucional de crédito/vulnerabilidade; explicabilidade técnica; e fronteira clínica ligada a apostas.
+
 As demais 72 fontes continuam disponíveis no índice ampliado e podem ser citadas nos artefatos específicos conforme sua capacidade probatória.
 
 ## Cinco fontes âncora
+
 ### Âncora 1 — Fonte #01: LGPD — Lei nº 13.709/2018 — Texto Atualizado da Câmara
-**Função:** Base brasileira para proteção de dados, princípios, direitos do titular e decisões automatizadas.
+**Função:** base brasileira para proteção de dados, princípios, direitos do titular e decisões automatizadas.  
 **Link:** <https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html>
 
 ### Âncora 2 — Fonte #07: Resolução Conjunta nº 1/2020 — Open Finance
-**Função:** Base regulatória brasileira do compartilhamento de dados e serviços no Open Finance; usar versão consolidada vigente no refresh final.
+**Função:** base regulatória brasileira do compartilhamento de dados e serviços no Open Finance; usar versão consolidada vigente no refresh final.  
 **Link:** <https://normativos.bcb.gov.br/Lists/Normativos/Attachments/51028/Res_Conj_0001_v8_L.pdf>
 
 ### Âncora 3 — Fonte #09: Banco Central — Relatório de Cidadania Financeira 2025
-**Função:** Evidência institucional brasileira sobre cidadania financeira, crédito, vulnerabilidades, Open Finance e Endiv-IA.
+**Função:** evidência institucional brasileira sobre cidadania financeira, crédito, vulnerabilidades, Open Finance e Endiv-IA.  
 **Link:** <https://www.bcb.gov.br/content/cidadaniafinanceira/documentos_cidadania/RCF/relatorio_de_cidadania_financeira_2025.pdf>
 
 ### Âncora 4 — Fonte #35: Simonae, Marcon & Casanova — Bridging AI and Ethics
-**Função:** Referência acadêmica brasileira para o eixo ML-XAI-LLM, explicabilidade e tradução de explicações.
+**Função:** referência acadêmica brasileira para o eixo ML-XAI-LLM, explicabilidade e tradução de explicações.  
 **Link:** <https://sol.sbc.org.br/index.php/sbsi/article/download/41332/41102/>
 
 ### Âncora 5 — Fonte #75: Ministério da Saúde — Guia de Cuidado para Pessoas com Problemas Relacionados a Jogos de Apostas — 2026
-**Função:** Fonte oficial brasileira para a fronteira entre sinais de risco, triagem, cuidado e diagnóstico clínico; evita converter transação financeira em diagnóstico.
+**Função:** fonte oficial brasileira para a fronteira entre sinais de risco, triagem, cuidado e diagnóstico clínico; evita converter transação financeira em diagnóstico.  
 **Link:** <https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guias-e-manuais/2026/guia-de-cuidado-para-pessoas-com-problemas-relacionados-a-jogos-de-apostas.pdf/@@download/file/Guia%20de%20Cuidado%20para%20Pessoas%20com%20Problemas%20Relacionados%20a%20Jogos%20de%20Apostas.pdf>
 
 ## Índice conciso do corpus auditado — 77 fontes
-> **Regra:** O índice abaixo não afirma que todas as fontes têm o mesmo peso. O status e o limite de uso prevalecem sobre a simples presença no corpus.
+
+> **Regra:** o índice abaixo não afirma que todas as fontes têm o mesmo peso. O status e o limite de uso prevalecem sobre a simples presença no corpus.
+
 01. LGPD — Lei nº 13.709/2018 — Texto Atualizado da Câmara — BR | E1 | RETER — núcleo Brasil-first
 02. Código de Defesa do Consumidor — texto consolidado vigente (Lei nº 8.078/1990; Lei nº 14.181/2021 preservada como proveniência) — BR | E1 | RETER — crédito responsável/superendividamento
 03. Lei nº 12.414/2011 — Cadastro Positivo — Texto Atualizado da Câmara — BR | E1 | RETER
@@ -70,7 +83,7 @@ As demais 72 fontes continuam disponíveis no índice ampliado e podem ser citad
 38. NIST — Artificial Intelligence Risk Management Framework 1.0 — EUA/INT | E4 | RETER TÉCNICO
 39. Cyber Risk Institute — Financial Services AI Risk Management Framework — INT | E4 | RETER — NÃO VINCULANTE
 40. FSSCC — AI and Explainability in Finance — INT | E4 | RETER — NÃO VINCULANTE
-41. Federal Reserve — SR 11-7 Supervisory Guidance on Model Risk Management — EUA | E3/E4 | RETER COMO BASELINE HISTÓRICA; supersedida pela SR 26-2 em 17/04/2026. SR 26-2 deve ser usada para estado atual quando citada, sem alterar retroativamente a identidade desta fonte do corpus.
+41. Federal Reserve — SR 11-7 Supervisory Guidance on Model Risk Management — EUA | E3/E4 | RETER COMO BASELINE HISTÓRICA; supersedida pela SR 26-2 em 17/04/2026. Para estado atual usar SR 26-2, sem apagar a identidade histórica desta fonte do corpus.
 42. CFPB Circular 2022-03 — Adverse Action Notification Requirements for Complex Algorithms — EUA | E3 | RETER COMPARATIVO
 43. World Bank — Key Considerations for Open Finance — INT | E4 | RETER
 44. Cyber Risk Management of API-Enabled Financial Crime in Open Banking Services — INT | E5 | RETER PERIFÉRICO
@@ -99,7 +112,7 @@ As demais 72 fontes continuam disponíveis no índice ampliado e podem ser citad
 67. Lei nº 14.790/2023 — apostas de quota fixa — texto atualizado — BR | E1 | RETER — núcleo Brasil-first
 68. Lei nº 15.358/2026 — alterações relacionadas a operadores irregulares — BR | E1 | RESERVA/PROVENIÊNCIA CONTROLADA
 69. Decreto nº 13.033/2026 — bloqueio de operadores irregulares — republicação oficial — BR | E1 | RETER
-70. Resolução CMN nº 5.320/2026 — bloqueio de contas/transações de operadores não autorizados — BR | E1/E2 | RETER — vigência futura em 28/08/2026 na data de corte
+70. Resolução CMN nº 5.320/2026 — bloqueio de contas/transações de operadores não autorizados — BR | E1/E2 | RETER — **vigente desde 28/08/2026; no corte original de 22/08/2026 ainda era norma publicada com vigência futura**
 71. SPA/MF — Apostas de Quota Fixa — Legislação — índice regulatório atual — BR | E2 | RETER COMO LOCATOR
 72. SPA/MF — Jogo Responsável / Portaria SPA/MF nº 1.231/2024 — BR | E2 | RETER EXPLICATIVA
 73. SPA/MF — Autoexclusão / Portaria SPA/MF nº 2.579/2025 — BR | E2 | RETER EXPLICATIVA
@@ -109,10 +122,69 @@ As demais 72 fontes continuam disponíveis no índice ampliado e podem ser citad
 77. TJMG — Agravo de Instrumento nº 3367320-32.2025.8.13.0000 — BR | Jurisprudência | RETER ESTUDO DE CASO NÃO FINAL
 
 ## Controles de uso e publicação
+
 - Fontes internacionais são benchmarks/técnicas/comparativas, salvo quando a afirmação tratar explicitamente de sua jurisdição.
-- Fontes em RESERVA ou peso reduzido não devem sustentar sozinhas conclusão material.
+- Fontes em `RESERVA` ou peso reduzido não devem sustentar sozinhas conclusão material.
 - Jurisprudência #76 e #77 é casuística; não generalizar.
-- A fonte #70 exige refresh imediatamente antes da submissão e reclassificação temporal a partir de 28/08/2026, se não houver alteração/suspensão.
-- A versão consolidada da Resolução Conjunta nº 1/2020 deve ser revalidada no refresh final.
-- Para Model Risk Management dos EUA, a SR 11-7 permanece no índice como baseline histórica; o estado atual deve considerar a SR 26-2 (17/04/2026), que substituiu a SR 11-7.
+- A fonte #70 mudou de estado temporal: **futura em 22/08/2026; vigente a partir de 28/08/2026**.
+- A versão consolidada da Resolução Conjunta nº 1/2020 deve ser revalidada quando o conteúdo for reutilizado em contexto profissional futuro.
+- Para Model Risk Management dos EUA, a SR 11-7 permanece no índice como baseline histórica; o estado atual do benchmark federal considera a SR 26-2 de 17/04/2026, que substituiu a SR 11-7 e a SR 21-8.
 - O README pode exibir as cinco âncoras e apontar para este índice de 77 fontes como evidência da curadoria ampliada.
+
+---
+
+# Refresh temporal da 2ª edição — 27/09/2026
+
+As fontes abaixo foram consultadas para atualizar fatos mutáveis da segunda edição. **Não foram adicionadas retroativamente ao corpus original de 77 fontes do NotebookLM.**
+
+## R1 — Resolução CMN nº 5.320/2026
+
+**Autoridade:** Banco Central do Brasil / Conselho Monetário Nacional.  
+**Estado em 27/09/2026:** vigente desde 28/08/2026.  
+**Uso:** atualizar o tratamento do bloqueio de contas e impedimento de transações de operadores de apostas de quota fixa sem autorização.  
+**Ponto material:** a norma prevê bloqueio em até 24 horas após notificação da SPA/MF nas hipóteses especificadas.  
+**Link:** <https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=5320&tipo=Resolu%C3%A7%C3%A3o+CMN>
+
+## R2 — IN BCB nº 759/2026 — Manual de Escopo de Dados e Serviços do Open Finance v8.0
+
+**Autoridade:** Banco Central do Brasil.  
+**Publicação:** 09/07/2026.  
+**Entrada em vigor:** **03/11/2026**.  
+**Uso:** registrar atualização publicada do escopo, especialmente portabilidade de crédito, sem tratá-la como já vigente em 27/09/2026.  
+**Controle temporal:** até a entrada em vigor da IN 759, a referência operacional anterior permanece relevante.  
+**Link:** <https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=759&tipo=Instru%C3%A7%C3%A3o+Normativa+BCB>
+
+## R3 — IN BCB nº 760/2026 — Manual de Experiência do Cliente no Open Finance v9.0
+
+**Autoridade:** Banco Central do Brasil.  
+**Publicação:** 09/07/2026.  
+**Estado:** entrou em vigor na data de publicação.  
+**Uso:** atualizar a camada de experiência e gestão das jornadas de compartilhamento.  
+**Link:** <https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=760&tipo=Instru%C3%A7%C3%A3o+Normativa+BCB>
+
+## R4 — Resolução Conjunta nº 20/2026
+
+**Autoridade:** CMN/BCB.  
+**Publicação:** 04/05/2026.  
+**Uso:** registrar alterações na Resolução Conjunta nº 8/2023 sobre medidas de educação financeira.  
+**Controle temporal:** alterações indicadas pelo Banco Central possuem efeitos futuros conforme o normativo; não devem ser tratadas como se todas já estivessem vigentes em 27/09/2026.  
+**Link:** <https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=20&tipo=Resolu%C3%A7%C3%A3o+Conjunta>
+
+## R5 — Federal Reserve SR 26-2 — Revised Guidance on Model Risk Management
+
+**Jurisdição:** Estados Unidos — benchmark não vinculante no Brasil.  
+**Data:** 17/04/2026.  
+**Uso:** atualizar o benchmark de model risk management; a SR 26-2 substituiu SR 11-7 e SR 21-8 e enfatiza abordagem proporcional ao risco, perfil e uso dos modelos.  
+**Link:** <https://www.federalreserve.gov/supervisionreg/srletters/SR2602.htm>
+
+## R6 — ANPD — Direitos dos Titulares / decisões automatizadas
+
+**Autoridade:** Agência Nacional de Proteção de Dados.  
+**Uso:** refresh institucional para direitos relacionados a decisões automatizadas e pedidos de explicação/revisão, sem substituir o texto legal da LGPD como fonte primária.  
+**Link:** <https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados/direito-dos-titulares>
+
+## Resultado do refresh
+
+`REFRESH_2026_09_27=PASS_COM_CONTROLE_TEMPORAL`
+
+O refresh não converte fontes estrangeiras em obrigação brasileira, não altera a contagem histórica do corpus e não reescreve retroativamente o estado normativo da primeira edição.
