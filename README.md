@@ -27,6 +27,8 @@ Em 27/09/2026, após nova auditoria editorial, o antigo miniguia foi transformad
 
 ➡️ **Leia o e-book:** [`docs/miniguia-creditexplain-br.md`](docs/miniguia-creditexplain-br.md)
 
+➡️ **Consulte o apêndice técnico-regulatório:** [`docs/apendice-tecnico-regulatorio-creditexplain-br.md`](docs/apendice-tecnico-regulatorio-creditexplain-br.md)
+
 ➡️ **Veja o histórico de versões:** [`CHANGELOG.md`](CHANGELOG.md)
 
 ➡️ **Veja o gate de auditoria:** [`AUDIT_STATUS.md`](AUDIT_STATUS.md)
@@ -46,9 +48,9 @@ O trabalho foi conduzido em camadas:
 5. **Experimentos controlados de prompting.** Foram executadas variações da mesma pergunta e perguntas estratégicas, com controle de histórico e notas.
 6. **Auditoria das respostas.** Citação correta não foi tratada como prova automática de conclusão correta; escopo, autoridade, terminologia e vigência foram verificados separadamente.
 7. **Consolidação editorial original.** O NotebookLM gerou o miniguia, posteriormente revisado por controle humano.
-8. **Revisão editorial v2.** Em 27/09/2026, a entrega foi reestruturada como e-book narrativo, com explicações desenvolvidas, exemplos, estudos de caso, playbook de governança e refresh temporal das fontes mutáveis.
+8. **Revisão editorial v2.** Em 27/09/2026, a entrega foi reestruturada como e-book narrativo, com explicações desenvolvidas, exemplos, estudos de caso, playbook de governança, apêndice técnico-regulatório e refresh temporal das fontes mutáveis.
 
-> O corpus de 77 fontes é uma expansão autoral do projeto. Para a apresentação enxuta exigida pelo desafio, o README destaca cinco fontes âncora; o índice integral permanece separado em [`docs/corpus-77-fontes.md`](docs/corpus-77-fontes.md).
+> O corpus de 77 fontes é uma expansão autoral do projeto. Para a apresentação enxuta **recomendada** pelo desafio, o README destaca cinco fontes âncora; o índice integral permanece separado em [`docs/corpus-77-fontes.md`](docs/corpus-77-fontes.md).
 
 ## 4. Cinco fontes âncora
 
@@ -97,6 +99,7 @@ A v2 agora inclui:
 - perguntas de auditoria para dados, modelo, explicação e governança;
 - glossário comentado;
 - dez prompts reutilizáveis para estudo e auditoria;
+- **apêndice técnico-regulatório**, que preserva matrizes, detalhes, controles de evidência e itens que seriam excessivamente densos no fluxo narrativo;
 - referências selecionadas e ligação direta com o corpus de 77 fontes.
 
 ## 7. Refresh temporal
@@ -107,11 +110,11 @@ A edição v2 possui **refresh em 27/09/2026** para pontos materiais mutáveis. 
 
 - a **Resolução CMN nº 5.320/2026**, que no corte original ainda tinha vigência futura, está vigente desde 28/08/2026;
 - o Banco Central publicou a **IN BCB nº 759/2026**, com o Manual de Escopo de Dados e Serviços do Open Finance v8.0, cuja entrada em vigor é 03/11/2026; até então, a temporalidade precisa ser respeitada;
-- a **IN BCB nº 760/2026** publicou o Manual de Experiência do Cliente do Open Finance v9.0, vigente desde sua publicação;
-- a **Resolução Conjunta nº 20/2026** altera a Resolução Conjunta nº 8/2023, com efeitos futuros conforme o próprio normativo;
+- a **IN BCB nº 760/2026** publicou o Manual de Experiência do Cliente do Open Finance v9.0;
+- a **Resolução Conjunta nº 20/2026** altera a Resolução Conjunta nº 8/2023, com efeitos nas datas previstas pelo próprio normativo;
 - a orientação norte-americana de model risk foi atualizada pela **SR 26-2**, que substituiu SR 11-7 e SR 21-8.
 
-O detalhamento está no corpus e no próprio e-book. A existência de refresh atual não transforma o projeto em parecer jurídico permanentemente atualizado.
+O detalhamento está no corpus, no e-book e no apêndice. A existência de refresh atual não transforma o projeto em parecer jurídico permanentemente atualizado.
 
 ## 8. Checklist de aderência ao desafio DIO
 
@@ -120,6 +123,7 @@ O detalhamento está no corpus e no próprio e-book. A existência de refresh at
 - ✅ **Engenharia de prompts:** variações 1A/1B e perguntas estratégicas preservadas.
 - ✅ **Respostas, referências e cicatrizes:** resultados auditados e troubleshooting documentados.
 - ✅ **Entrega pedagógica:** e-book v2 revisado e ampliado em [`docs/miniguia-creditexplain-br.md`](docs/miniguia-creditexplain-br.md).
+- ✅ **Detalhamento técnico e regulatório:** consolidado em [`docs/apendice-tecnico-regulatorio-creditexplain-br.md`](docs/apendice-tecnico-regulatorio-creditexplain-br.md).
 - ✅ **Glossário e prompts reutilizáveis:** integrados à segunda edição.
 - ✅ **Repositório próprio no GitHub:** `otavio-diniz/creditexplain-br`.
 - ✅ **Submissão na plataforma DIO:** concluída conforme declaração do autor registrada em 27/09/2026. **A data exata e o comprovante institucional da submissão não foram autenticados neste repositório.**
@@ -137,6 +141,7 @@ creditexplain-br/
 ├── NOTICE.md
 ├── docs/
 │   ├── miniguia-creditexplain-br.md
+│   ├── apendice-tecnico-regulatorio-creditexplain-br.md
 │   ├── corpus-77-fontes.md
 │   └── experimentos-e-cicatrizes.md
 └── assets/
@@ -146,6 +151,7 @@ creditexplain-br/
 ### Arquivos principais
 
 - [`docs/miniguia-creditexplain-br.md`](docs/miniguia-creditexplain-br.md) — e-book completo, 2ª edição revisada e ampliada.
+- [`docs/apendice-tecnico-regulatorio-creditexplain-br.md`](docs/apendice-tecnico-regulatorio-creditexplain-br.md) — matrizes regulatórias, detalhe técnico, controles de evidência e preservação de densidade da pesquisa.
 - [`docs/corpus-77-fontes.md`](docs/corpus-77-fontes.md) — índice do corpus, hierarquia das fontes e refresh temporal.
 - [`docs/experimentos-e-cicatrizes.md`](docs/experimentos-e-cicatrizes.md) — evolução dos prompts, resultados, auditoria e troubleshooting.
 - [`AUDIT_STATUS.md`](AUDIT_STATUS.md) — gate atual de prontidão e controle de proveniência.
@@ -168,10 +174,10 @@ creditexplain-br/
 
 O CreditExplain BR demonstra um processo de **curadoria → prompting → verificação → auditoria → correção editorial → consolidação pedagógica → revisão temporal**.
 
-A segunda edição desloca o projeto de um miniguia concentrado para um e-book que procura explicar o raciocínio por trás dos conceitos, conectando regulação, ciência de dados, governança e experiência do consumidor. A pesquisa original continua rastreável e o histórico permanece preservado no Git.
+A segunda edição desloca o projeto de um miniguia concentrado para um e-book que procura explicar o raciocínio por trás dos conceitos, conectando regulação, ciência de dados, governança e experiência do consumidor. O apêndice técnico-regulatório preserva a densidade necessária para auditoria sem sacrificar a leitura do corpo principal. A pesquisa original continua rastreável e o histórico permanece preservado no Git.
 
 ---
 
 **Desafio:** Treinando uma IA de Aprendizagem: Explore o Poder do NotebookLM  
 **Projeto:** CreditExplain BR — Crédito Responsável, IA, Open Finance e Explicabilidade  
-**Estado documental:** e-book v2 revisado e ampliado; repositório auditado; submissão à DIO declarada concluída pelo autor; nota/certificação não inferidas.
+**Estado documental:** e-book v2 revisado e ampliado; apêndice técnico publicado no pacote; repositório auditado; submissão à DIO declarada concluída pelo autor; nota/certificação não inferidas.
