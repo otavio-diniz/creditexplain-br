@@ -9,6 +9,8 @@
 
 > **Escopo e integridade.** Este e-book é material educacional e analítico. Não constitui parecer jurídico, recomendação individual de crédito, política real de concessão, diagnóstico clínico, laudo de saúde, consultoria de investimentos nem sistema automatizado em produção. As normas brasileiras são tratadas como fonte primária quando o tema é obrigação, direito ou proibição no Brasil; fontes estrangeiras aparecem como benchmark comparativo. Exemplos não vinculados a casos reais são **MATERIAL DIDÁTICO FICTÍCIO/SINTÉTICO**.
 
+> **Leitura acessível.** Se alguma sigla interromper a leitura, consulte o [Mapa de siglas e abreviações](siglas-e-abreviacoes.md). O mapa expande as abreviações e a **Parte XIV — Glossário comentado** desenvolve os conceitos que exigem contexto.
+
 ---
 
 ## Nota editorial da segunda edição
