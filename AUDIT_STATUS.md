@@ -12,7 +12,7 @@
 
 `EVALUATOR_READINESS=PASS_EDICAO_REVISADA_E_SUBMISSAO_DECLARADA`
 
-O repositório permite reconstruir propósito, curadoria, experimentação, cicatrizes, entrega pedagógica, limites, proveniência e evolução editorial do projeto. A segunda edição corrige a principal fragilidade pedagógica identificada após o fechamento original: o material continha conteúdo técnico relevante, mas estava excessivamente comprimido para funcionar como e-book autônomo de aprendizagem.
+O repositório permite reconstruir propósito, curadoria, experimentação, cicatrizes, entrega pedagógica, detalhe técnico-regulatório, limites, proveniência e evolução editorial do projeto. A segunda edição corrige a principal fragilidade pedagógica identificada após o fechamento original: o material continha conteúdo técnico relevante, mas estava excessivamente comprimido para funcionar como e-book autônomo de aprendizagem.
 
 ## Matriz de aderência ao desafio
 
@@ -26,8 +26,10 @@ O repositório permite reconstruir propósito, curadoria, experimentação, cica
 | Registro de erros e refinamentos | `docs/experimentos-e-cicatrizes.md` | PASS |
 | Entrega pedagógica | e-book v2 em `docs/miniguia-creditexplain-br.md` | PASS |
 | Profundidade explicativa | narrativa, exemplos, estudos de caso e playbook | PASS |
+| Preservação da densidade técnica | `docs/apendice-tecnico-regulatorio-creditexplain-br.md` | PASS |
+| Matriz regulatória e temporal | apêndice + corpus atualizado | PASS COM CONTROLE TEMPORAL |
 | Glossário e prompts reutilizáveis | integrados ao e-book v2 | PASS |
-| Atualidade de pontos mutáveis | refresh 27/09/2026 no corpus/e-book | PASS COM CONTROLE TEMPORAL |
+| Atualidade de pontos mutáveis | refresh 27/09/2026 no corpus/e-book/apêndice | PASS COM CONTROLE TEMPORAL |
 | Repositório navegável | README + audit + changelog + docs + assets | PASS |
 | Proveniência e direitos | `NOTICE.md` + `LICENSE` | PASS |
 | Submissão à DIO | declaração humana do autor em 27/09/2026 | REGISTRADA — DATA EXATA NÃO AUTENTICADA |
@@ -42,6 +44,8 @@ O projeto foi fechado com corpus de 77 fontes, experimentos auditados e miniguia
 
 A segunda edição foi reconstruída como e-book narrativo. Foram adicionados contexto, conexões entre conceitos, exemplos, estudos de caso sintéticos, explicações de SHAP/LIME, model risk, drift, Open Finance, contestabilidade, governança e um playbook prático.
 
+Para evitar que o ganho de legibilidade apagasse a densidade do trabalho, foi criado um **apêndice técnico-regulatório** separado. Ele concentra matrizes, detalhes de atos regulatórios, controles de evidência, distinções de jurisdição, limites de generalização e registro explícito de afirmações rebaixadas/corrigidas.
+
 A revisão **não substitui o corpus histórico nem inventa que o NotebookLM produziu a nova redação**. O e-book v2 é uma revisão editorial posterior, explicitamente documentada.
 
 ## Controle temporal
@@ -50,11 +54,25 @@ O refresh atual preserva a diferença entre estado histórico e estado vigente:
 
 - **Resolução CMN nº 5.320/2026:** era norma publicada com vigência futura no corte de 22/08; está vigente desde 28/08/2026.
 - **IN BCB nº 759/2026:** publicou o Manual de Escopo do Open Finance v8.0, mas sua entrada em vigor é 03/11/2026; portanto, não é tratada como vigente em 27/09/2026.
-- **IN BCB nº 760/2026:** Manual de Experiência do Cliente v9.0 vigente desde a publicação.
-- **Resolução Conjunta nº 20/2026:** altera a disciplina de educação financeira, com efeitos temporais futuros conforme o próprio normativo.
-- **Federal Reserve SR 26-2:** substituiu SR 11-7 e SR 21-8 no benchmark norte-americano de model risk management.
+- **IN BCB nº 760/2026:** Manual de Experiência do Cliente v9.0 atualizado na publicação de 09/07/2026.
+- **Resolução Conjunta nº 20/2026:** altera a disciplina de educação financeira, com efeitos temporais nas datas previstas pelo próprio normativo.
+- **Federal Reserve SR 26-2:** substituiu SR 11-7 e SR 21-8 no benchmark norte-americano de model risk management; permanece benchmark estrangeiro não vinculante no Brasil.
 
 As fontes de refresh não aumentam retroativamente a contagem original de 77 fontes do NotebookLM.
+
+## Integridade editorial
+
+A auditoria v2 também verificou que **completude não significa repetir toda formulação histórica sem crítica**. Quando a primeira edição continha uma extrapolação já identificada nos experimentos, a nova edição preserva a cicatriz, mas não promove a extrapolação como conhecimento válido.
+
+Exemplos registrados no apêndice/experimentos:
+
+- justificativa CEP/CONEP não sustentada pela fonte acadêmica;
+- atribuição não sustentada de “blacklist”;
+- técnica XAI apresentada com linguagem excessivamente próxima de obrigação regulatória;
+- benchmark estrangeiro que exigia qualificação explícita de jurisdição;
+- causalidade sugerida onde a evidência era apenas preditiva.
+
+Resultado: `INFORMACAO_VALIDA_PRESERVADA=SIM`; `EXTRAPOLACAO_PROMOVIDA=NAO`.
 
 ## Estado da submissão DIO
 
@@ -84,6 +102,8 @@ Interpretação estrita do marcador:
 ## Controle de alterações — ciclo v2
 
 `EBOOK_SUBSTANTIVAMENTE_REESCRITO=SIM`  
+`APENDICE_TECNICO_REGULATORIO_CRIADO=SIM`  
+`DENSIDADE_TECNICA_PRESERVADA=SIM`  
 `PESQUISA_ORIGINAL_PRESERVADA=SIM`  
 `EXPERIMENTOS_NOTEBOOKLM_REEXECUTADOS=NAO`  
 `CORPUS_HISTORICO_77_FONTES_PRESERVADO=SIM`  
